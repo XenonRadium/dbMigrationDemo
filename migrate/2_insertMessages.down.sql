@@ -1,0 +1,1 @@
+DELETE FROM messages WHERE version = "1.0.1" OR  version = "1.1.0" OR version = "1.1.1" OR version = "1.1.2" OR version = "1.1.3" OR version = "1.1.4" OR version = "1.1.5" OR version = "1.1.6" OR version = "1.1.7";
