@@ -29,11 +29,11 @@ var migrateDownCmd = &cobra.Command{
 
 		m, err := migrate.NewWithInstance("file", fileSource, "mysql", dbDriver)
 		if err != nil {
-			fmt.Printf("crating migration errpr: %v \n", err)
+			fmt.Printf("cerating migration error: %v \n", err)
 		}
 
 		if err := m.Down(); err != nil {
-			fmt.Printf("migrate down errpr: %v \n", err)
+			fmt.Printf("migrate down error: %v \n", err)
 		}
 
 		fmt.Println("Migrate down done!")
